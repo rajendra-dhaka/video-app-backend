@@ -1,0 +1,17 @@
+{
+  "name": "videoapp-backend",
+  "version": "1.0.0",
+  "description": "a backend for video app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "youtube-clone",
+    "video-app"
+  ],
+  "author": "Rajendra Dhaka",
+  "license": "ISC"
+}
