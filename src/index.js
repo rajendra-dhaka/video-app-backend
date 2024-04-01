@@ -1,4 +1,4 @@
-import dotenv from "dotenv";
+import "dotenv/config";
 import connectDB from "./db/index.js";
 
 // import mongoose from "mongoose";
@@ -22,6 +22,5 @@ import connectDB from "./db/index.js";
 //     throw err;
 //   }
 // })();
-dotenv.config({ path: "./env" });
 
 connectDB();
