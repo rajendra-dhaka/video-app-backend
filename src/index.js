@@ -5,7 +5,7 @@ const port = process.env.PORT || 8080;
 
 connectDB()
   .then(() => {
-    application.on("error", (err) => {
+    app.on("error", (err) => {
       console.error("ERROR:", err);
       throw err;
     });
@@ -22,7 +22,7 @@ import { DB_NAME } from "./constants";
 const app = express();
   
 (async () => {
-  const port = process.env.PORT || 8080;
+  const port = process.env.PORT || 8080; 
   try {
     await mongoose.connect(`${process.env.MONGODB_URI}/${DB_NAME}`);
 
